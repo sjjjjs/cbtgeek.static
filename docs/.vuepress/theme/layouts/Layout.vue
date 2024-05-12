@@ -1,10 +1,6 @@
 <template>
-  <BlogPage v-if="contentType === 'blog'">
-    <Content />
-  </BlogPage>
-  <ProductPage v-else-if="contentType === 'product'">
-    <Content />
-  </ProductPage>
+  <BlogPage v-if="contentType === 'blog'"> <Content /> </BlogPage>
+  <ProductPage v-else-if="contentType === 'product'"> <Content /> </ProductPage>
   <MyPage v-else> <Content /> </MyPage>
 </template>
 <script>
@@ -20,13 +16,15 @@ export default {
   },
   computed: {
     contentType() {
-      if (this.$page.regularPath.toLowerCase() === "/markdown.md") {
-        return "home";
-      } else if (this.$page.regularPath.match(/^\/product\/.*/)) {
+      const path = this.$page.regularPath.toLowerCase();
+      if (path.match(/^\/product\/.*/)) {
+        // 产品
         return "product";
-      } else if (this.$page.regularPath.match(/^\/blog\/.+/)) {
+      } else if (path.match(/^\/blog\/.*/)) {
+        // 博客
         return "blog";
       } else {
+        // 其他
         return "other";
       }
     },

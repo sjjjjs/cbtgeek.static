@@ -1,4 +1,9 @@
+
+
 # Contributor Covenant Code of Conduct
+
+:::slot article
+:::
 
 ## Our Pledge
 

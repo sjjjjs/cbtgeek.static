@@ -2,25 +2,24 @@
   <el-container class="page-container">
     <el-header :height="headerHeight" class="page-header">
       <slot name="header">
-        <MyNavigator />
+        <div class="page-header-wrap">
+          <MyNavigator />
+        </div>
       </slot>
     </el-header>
-    <el-main
-      :class="{
-        'page-content': true,
-        'no-padding': noPadding,
-      }"
-    >
+    <el-main class="page-content">
       <div v-if="expand" class="expand-content">
         <slot></slot>
       </div>
-      <div v-else class="limit-content">
+      <div v-else class="page-content-wrap">
         <slot></slot>
       </div>
     </el-main>
     <el-footer :height="footerHeight" class="page-footer">
       <slot name="footer">
-        <MyFooter />
+        <div class="page-footer-wrap">
+          <MyFooter />
+        </div>
       </slot>
     </el-footer>
   </el-container>
@@ -58,24 +57,35 @@ export default {
   min-height: 100vh;
 }
 
-.page-content, .page-head-wrap {
-  width: 1170px;
-  position: relative;
-  margin: auto;
+.page-content, .page-header, .page-footer {
+  padding: 0;
 }
 
-.limit-content {
-  width: 1170px;
-  padding: 32px;
-  margin: 10px auto;
+.page-header-wrap, .page-content-wrap, .page-footer-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
   position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.page-header {
+  background-color: #fff;
+  border-bottom: solid 1px #e6e6e6;
   overflow: hidden;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
-  color: main-color;
+.page-content {
+  padding: 40px 0;
+
+  .page-content-wrap {
+    padding: 60px 40px;
+    box-sizing: border-box;
+    border: 1px solid #ececec;
+  }
+}
+
+.page-footer {
+  background-color: #fff;
 }
 </style>
