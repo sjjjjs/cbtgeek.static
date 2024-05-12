@@ -1,4 +1,8 @@
-<template></template>
+<template>
+  <article class="article-section">
+    <slot></slot>
+  </article>
+</template>
 
 <script>
 export default {
@@ -6,5 +10,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped lang="stylus">
+article.article-section {
+  page-content-box();
+  article-content-padding();
+  box-sizing: border-box;
+  border: 1px solid #ececec;
+}
 </style>

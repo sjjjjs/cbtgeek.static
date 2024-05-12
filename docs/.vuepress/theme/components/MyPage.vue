@@ -8,12 +8,12 @@
       </slot>
     </el-header>
     <el-main class="page-content">
-      <div v-if="expand" class="expand-content">
+      <template v-if="full">
         <slot></slot>
-      </div>
-      <div v-else class="page-content-wrap">
+      </template>
+      <article-section v-else>
         <slot></slot>
-      </div>
+      </article-section>
     </el-main>
     <el-footer :height="footerHeight" class="page-footer">
       <slot name="footer">
@@ -30,18 +30,14 @@ import MyFooter from "@theme/components/MyFooter.vue";
 export default {
   props: {
     headerHeight: {
-      type: Number,
+      type: String,
       default: "60px",
     },
     footerHeight: {
-      type: Number,
+      type: String,
       default: "60px",
     },
-    noPadding: {
-      type: Boolean,
-      default: false,
-    },
-    expand: {
+    full: {
       type: Boolean,
       default: false,
     },
@@ -62,8 +58,7 @@ export default {
 }
 
 .page-header-wrap, .page-content-wrap, .page-footer-wrap {
-  max-width: 1000px;
-  margin: 0 auto;
+  page-content-box();
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
@@ -77,12 +72,6 @@ export default {
 
 .page-content {
   padding: 40px 0;
-
-  .page-content-wrap {
-    padding: 60px 40px;
-    box-sizing: border-box;
-    border: 1px solid #ececec;
-  }
 }
 
 .page-footer {
