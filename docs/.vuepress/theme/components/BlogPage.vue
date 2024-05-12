@@ -16,13 +16,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.blog-content {
-  width: 1312px;
-  padding: 32px;
-  margin: 10px auto;
-  position: relative;
-  overflow: hidden;
-}
-</style>

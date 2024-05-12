@@ -1,9 +1,9 @@
 ---
 category: 
-    title: ''
+    title: 'AC EV Wallbox Station'
     description: ''
 ---
 
-# product home
+# AC EV Wallbox Station
 
 <pre>{{$page}}</pre>

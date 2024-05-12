@@ -1,9 +1,9 @@
 ---
 category: 
-    title: ''
+    title: 'Type 1 Charging Cables'
     description: ''
 ---
 
-# product home
+# Type 1 Charging Cables
 
 <pre>{{$page}}</pre>
