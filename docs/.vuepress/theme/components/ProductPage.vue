@@ -3,7 +3,7 @@
     <el-row class="product-page" :gutter="20">
       <el-col :span="6" class="product-page--category">
         <el-table :data="categoryList">
-          <el-table-column label="Category">
+          <el-table-column>
             <template #default="{ row }">
               <router-link :to="row.path">
                 {{ row.frontmatter.category.title || row.title }}

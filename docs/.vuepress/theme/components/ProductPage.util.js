@@ -18,7 +18,6 @@ class PathComponentResolver {
         this.postTreatment();
         const data = this.segments;
         this.segments = [];
-        console.log('data', data)
         return data;
     }
     postTreatment() {
