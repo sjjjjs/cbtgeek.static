@@ -7,3 +7,4 @@ category:
 # product home
 
 <pre>{{$page}}</pre>
+

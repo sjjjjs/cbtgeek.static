@@ -2,7 +2,13 @@
 
 # Contributor Covenant Code of Conduct
 
-:::slot article
+
+::: test green
+``` yaml
+foo: 100
+bar: 200
+z: hello world
+```
 :::
 
 ## Our Pledge

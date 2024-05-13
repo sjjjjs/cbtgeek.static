@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run docs:dev",
-    "build": "npm run docs:build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && npm run docs:build",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
@@ -15,7 +15,6 @@
     "vuepress": "^1.9.10"
   },
   "dependencies": {
-    "element-ui": "^2.15.14",
-    "medium.css": "^1.0.2"
+    "element-ui": "^2.15.14"
   }
 }
