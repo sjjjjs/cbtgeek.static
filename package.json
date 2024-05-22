@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run docs:dev",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider && npm run docs:build",
+    "build": "echo hello world",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
