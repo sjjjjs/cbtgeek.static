@@ -1,3 +1,0 @@
-# hydra
-
-foo

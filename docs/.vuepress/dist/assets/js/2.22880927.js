@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{378:function(t,n,c){},381:function(t,n,c){"use strict";c(378)},384:function(t,n,c){"use strict";c.r(n);var e={name:"article-section"},i=(c(381),c(30)),s=Object(i.a)(e,(function(){return(0,this._self._c)("article",{staticClass:"article-section"},[this._t("default")],2)}),[],!1,null,"d49f3388",null);n.default=s.exports}}]);

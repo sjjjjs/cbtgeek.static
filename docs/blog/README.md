@@ -1,3 +1,0 @@
-# blog home
-
-<blog-list />
