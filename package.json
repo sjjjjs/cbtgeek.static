@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run docs:dev",
-    "build": "echo hello world",
+    "build": "npm run docs:build",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs --dest dist"
   },
   "author": "",
   "license": "ISC",
