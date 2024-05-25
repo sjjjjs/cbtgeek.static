@@ -1,5 +1,6 @@
 <template>
     <div style="color: #fff; background-color: rgba(255, 0, 0, 0.1);">
+        <h3 class=" text-blue-300">hi there</h3>
         <slot></slot>
         <ul v-if="cities.length">
             <li v-for="city in cities">{{ city.province }}{{ city.name }}</li>
