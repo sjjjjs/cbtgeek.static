@@ -1,82 +1,61 @@
 {
-  "hash": "fec558ef",
-  "configHash": "c6564f4d",
+  "hash": "9d90cce1",
+  "configHash": "c1059b0b",
   "lockfileHash": "a4342b8a",
-  "browserHash": "843aaa26",
+  "browserHash": "825bdd46",
   "optimized": {
     "@vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "@vue_devtools-api.js",
-      "fileHash": "aaa53c8b",
+      "fileHash": "a1ba2e0b",
       "needsInterop": false
     },
     "@vuepress/shared": {
       "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
       "file": "@vuepress_shared.js",
-      "fileHash": "0d831eaf",
+      "fileHash": "3abed0c2",
       "needsInterop": false
     },
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "058a28d0",
+      "fileHash": "25ee5c7c",
       "needsInterop": false
     },
     "vue-router": {
       "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "e1ffb63a",
+      "fileHash": "045b3bdf",
       "needsInterop": false
     },
     "firebase/app": {
       "src": "../../../../node_modules/firebase/app/dist/esm/index.esm.js",
       "file": "firebase_app.js",
-      "fileHash": "c49a4a9d",
+      "fileHash": "23be6803",
       "needsInterop": false
     },
     "firebase/firestore": {
       "src": "../../../../node_modules/firebase/firestore/dist/esm/index.esm.js",
       "file": "firebase_firestore.js",
-      "fileHash": "69834d33",
-      "needsInterop": false
-    },
-    "firebase/storage": {
-      "src": "../../../../node_modules/firebase/storage/dist/esm/index.esm.js",
-      "file": "firebase_storage.js",
-      "fileHash": "9ad88395",
-      "needsInterop": false
-    },
-    "firebase/analytics": {
-      "src": "../../../../node_modules/firebase/analytics/dist/esm/index.esm.js",
-      "file": "firebase_analytics.js",
-      "fileHash": "250f49c8",
-      "needsInterop": false
-    },
-    "firebase/remote-config": {
-      "src": "../../../../node_modules/firebase/remote-config/dist/esm/index.esm.js",
-      "file": "firebase_remote-config.js",
-      "fileHash": "26706057",
+      "fileHash": "b80d4779",
       "needsInterop": false
     },
     "firebase/performance": {
       "src": "../../../../node_modules/firebase/performance/dist/esm/index.esm.js",
       "file": "firebase_performance.js",
-      "fileHash": "f6a636fb",
+      "fileHash": "e2f23fa1",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-RY5ODQAQ": {
-      "file": "chunk-RY5ODQAQ.js"
+    "chunk-LECWXJ2H": {
+      "file": "chunk-LECWXJ2H.js"
     },
     "chunk-UKCZNIRO": {
       "file": "chunk-UKCZNIRO.js"
     },
-    "chunk-AJI4T3EN": {
-      "file": "chunk-AJI4T3EN.js"
-    },
-    "chunk-5DBPMURZ": {
-      "file": "chunk-5DBPMURZ.js"
+    "chunk-RY5ODQAQ": {
+      "file": "chunk-RY5ODQAQ.js"
     }
   }
 }

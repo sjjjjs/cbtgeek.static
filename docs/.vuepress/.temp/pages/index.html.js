@@ -1,5 +1,5 @@
 import comp from "/Users/sunjunjie/projects/cbtgeek.static/docs/.vuepress/.temp/pages/index.html.vue"
-const data = JSON.parse("{\"path\":\"/\",\"title\":\"Hello VuePress\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1716557540000,\"contributors\":[{\"name\":\"sunjunjie\",\"email\":\"jessehain@foxmail.com\",\"commits\":4},{\"name\":\"jst408.hz\",\"email\":\"jst408.hz@gmail.co\",\"commits\":1}]},\"filePathRelative\":\"README.md\"}")
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"Hello VuePress\",\"lang\":\"zh-CN\",\"frontmatter\":{\"description\":\"Hello VuePress\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://b2b.gbtgeek.com/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"你好， VuePress ！\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Hello VuePress\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"Hello VuePress\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"Hello VuePress\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[]}\"]]},\"headers\":[],\"autoDesc\":true}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

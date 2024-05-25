@@ -408,10 +408,6 @@ function isNode() {
 function isBrowser() {
   return typeof self === "object" && self.self === self;
 }
-function isBrowserExtension() {
-  const runtime = typeof chrome === "object" ? chrome.runtime : typeof browser === "object" ? browser.runtime : void 0;
-  return typeof runtime === "object" && runtime.id !== void 0;
-}
 function isSafari() {
   return !isNode() && !!navigator.userAgent && navigator.userAgent.includes("Safari") && !navigator.userAgent.includes("Chrome");
 }
@@ -519,21 +515,7 @@ function deepEqual(a, b) {
 function isObject(thing) {
   return thing !== null && typeof thing === "object";
 }
-var DEFAULT_INTERVAL_MILLIS = 1e3;
-var DEFAULT_BACKOFF_FACTOR = 2;
 var MAX_VALUE_MILLIS = 4 * 60 * 60 * 1e3;
-var RANDOM_FACTOR = 0.5;
-function calculateBackoffMillis(backoffCount, intervalMillis = DEFAULT_INTERVAL_MILLIS, backoffFactor = DEFAULT_BACKOFF_FACTOR) {
-  const currBaseValue = intervalMillis * Math.pow(backoffFactor, backoffCount);
-  const randomWait = Math.round(
-    // A fraction of the backoff value to add/subtract.
-    // Deviation: changes multiplication order to improve readability.
-    RANDOM_FACTOR * currBaseValue * // A random float (rounded to int by Math.round above) in the range [-1, 1]. Determines
-    // if we add or subtract.
-    (Math.random() - 0.5) * 2
-  );
-  return Math.min(MAX_VALUE_MILLIS, currBaseValue + randomWait);
-}
 function getModularInstance(service) {
   if (service && service._delegate) {
     return service._delegate;
@@ -1910,7 +1892,6 @@ export {
   getDefaultEmulatorHostnameAndPort,
   createMockUserToken,
   getUA,
-  isBrowserExtension,
   isSafari,
   isIndexedDBAvailable,
   validateIndexedDBOpenable,
@@ -1918,11 +1899,10 @@ export {
   FirebaseError,
   ErrorFactory,
   deepEqual,
-  calculateBackoffMillis,
   getModularInstance,
+  Component,
   LogLevel,
   Logger,
-  Component,
   openDB,
   DEFAULT_ENTRY_NAME2 as DEFAULT_ENTRY_NAME,
   _apps,
@@ -2233,6 +2213,8 @@ export {
    * See the License for the specific language governing permissions and
    * limitations under the License.
    *)
+
+@firebase/util/dist/index.esm2017.js:
   (**
    * @license
    * Copyright 2020 Google LLC
@@ -2354,4 +2336,4 @@ export {
    * limitations under the License.
    *)
 */
-//# sourceMappingURL=chunk-5DBPMURZ.js.map
+//# sourceMappingURL=chunk-LECWXJ2H.js.map
