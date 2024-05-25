@@ -18,8 +18,9 @@ const localTheme = ({
         },
         clientConfigFile: path.resolve(baseDir, 'src/config.js'),
         define: {
-            __VERSION__: '1.0.0'
+            __APP_VERSION__: '1.0.0'
         },
+        templateBuild: path.resolve(baseDir, 'templates/build.html'),
         // https://vuepress.vuejs.org/zh/reference/plugin-api.html#extendspage
         extendsPage: (page) => {
             // save title into route meta to generate navbar and sidebar

@@ -1,6 +1,6 @@
 # Hello VuePress
 
-<RedDiv>foobar</RedDiv>
+<RedDiv>version: <Version /></RedDiv>
 
 <script setup>
 import RedDiv from '@/components/RedDiv.vue';
