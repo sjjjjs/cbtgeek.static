@@ -2,7 +2,9 @@
     <div class="min-h-screen">
         <PageHeader></PageHeader>
         <div class="container mx-auto">
-            <Content></Content>
+            <article class="prose prose-slate mx-auto">
+                <Content></Content>
+            </article>
         </div>
         <PageFooter></PageFooter>
     </div>
