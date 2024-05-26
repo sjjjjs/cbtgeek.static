@@ -1,4 +1,4 @@
-import PageHeader from '@/components/PageHeader.vue';
+import PageHeader from '@/components/PageHeader/index.vue';
 
 export default {
     title: 'Example/PageHeader',

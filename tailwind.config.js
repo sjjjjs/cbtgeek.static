@@ -2,8 +2,7 @@
 module.exports = {
   darkMode: 'media',
   content: [
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-    "./node_modules/flowbite/**/*.js"
+    "./src/**/*.{vue,js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {},
@@ -11,7 +10,7 @@ module.exports = {
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
-    require('flowbite/plugin')
+    require('daisyui'),
   ],
 }
 
