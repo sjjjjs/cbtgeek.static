@@ -6,7 +6,11 @@ module.exports = {
     "./docs/**/*.md"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        // 'tech-team-bg': '@/assets/tech-team-bg.png'
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
