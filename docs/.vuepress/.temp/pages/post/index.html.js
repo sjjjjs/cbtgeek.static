@@ -1,0 +1,3 @@
+import comp from "/Users/sunjunjie/projects/cbtgeek.static/docs/.vuepress/.temp/pages/post/index.html.vue"
+const data = JSON.parse("{\"path\":\"/post/\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://true/post/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"CBT Geek\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[]}\"]]},\"headers\":[]}")
+export { comp, data }
