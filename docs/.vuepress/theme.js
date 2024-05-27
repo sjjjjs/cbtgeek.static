@@ -20,7 +20,7 @@ const localTheme = ({
         define: {
             __APP_VERSION__: '1.0.0'
         },
-        templateBuild: path.resolve(baseDir, 'templates/build.html'),
+        templateBuild: path.resolve(baseDir, 'src/templates/build.html'),
         // https://vuepress.vuejs.org/zh/reference/plugin-api.html#extendspage
         extendsPage: (page) => {
             // save title into route meta to generate navbar and sidebar
