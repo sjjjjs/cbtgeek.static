@@ -1,5 +1,5 @@
 import comp from "/Users/sunjunjie/projects/cbtgeek.static/docs/.vuepress/.temp/pages/index.html.vue"
-const data = JSON.parse("{\"path\":\"/\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://b2b.gbtgeek.com/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"CBT Geek\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[]}\"]]},\"headers\":[]}")
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
