@@ -2,10 +2,9 @@
 layout: LayoutArticle
 ---
 
-CBT Geek
+# About CBT Geek
 
-## Slogan:
-"Empowering Global Trade with Technology"
+> Empowering Global Trade with Technology
 
 ## Mission:
 "To revolutionize cross-border trade by providing cutting-edge technological solutions that streamline processes, enhance efficiency, and drive sustainable growth for businesses worldwide."

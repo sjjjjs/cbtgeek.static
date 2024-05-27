@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer p-10 bg-neutral text-neutral-content">
+    <footer class="footer p-10 bg-neutral text-neutral-content shrink-0">
         <aside>
             <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
                 clip-rule="evenodd" class="fill-current">
@@ -26,12 +26,13 @@
         <nav>
             <h6 class="footer-title">Legal</h6>
             <a class="link link-hover">Terms of use</a>
-            <a class="link link-hover">Privacy policy</a>
+            <a href="/privacy-policy.html" class="link link-hover">Privacy policy</a>
             <a class="link link-hover">Cookie policy</a>
         </nav>
     </footer>
     <Copyright></Copyright>
 </template>
 <script setup>
+import loggIcon from '@/assets/hash-icon.svg';
 import Copyright from '@/components/PageFooter/Copyright.vue'
 </script>

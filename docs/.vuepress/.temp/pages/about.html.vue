@@ -1,6 +1,7 @@
-<template><div><p>CBT Geek</p>
-<h2 id="slogan" tabindex="-1"><a class="header-anchor" href="#slogan"><span>Slogan:</span></a></h2>
-<p>&quot;Empowering Global Trade with Technology&quot;</p>
+<template><div><h1 id="about-cbt-geek" tabindex="-1"><a class="header-anchor" href="#about-cbt-geek"><span>About CBT Geek</span></a></h1>
+<blockquote>
+<p>Empowering Global Trade with Technology</p>
+</blockquote>
 <h2 id="mission" tabindex="-1"><a class="header-anchor" href="#mission"><span>Mission:</span></a></h2>
 <p>&quot;To revolutionize cross-border trade by providing cutting-edge technological solutions that streamline processes, enhance efficiency, and drive sustainable growth for businesses worldwide.&quot;</p>
 <h2 id="goals" tabindex="-1"><a class="header-anchor" href="#goals"><span>Goals:</span></a></h2>

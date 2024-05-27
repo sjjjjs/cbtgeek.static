@@ -1,8 +1,8 @@
 <template>
-    <div class="min-h-screen">
+    <div class="min-h-screen flex flex-col bg-slate-100">
         <PageHeader></PageHeader>
-        <div class="container mx-auto py-8">
-            <article class="prose prose-slate mx-auto">
+        <div class=" flex-grow container mx-auto py-4">
+            <article class="prose prose-slate mx-auto bg-white p-4">
                 <Content></Content>
             </article>
         </div>

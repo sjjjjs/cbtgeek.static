@@ -3,8 +3,8 @@
         <div class=" flex-shrink-0">
             <PageHeader></PageHeader>
         </div>
-        <div class=" flex-grow container mx-auto py-4">
-            <article class="prose prose-slate mx-auto bg-white p-4">
+        <div class=" flex-grow container mx-auto py-8">
+            <article class="prose prose-slate mx-auto">
                 <Content></Content>
             </article>
         </div>

@@ -2,7 +2,8 @@
 module.exports = {
   darkMode: 'media',
   content: [
-    "./src/**/*.{vue,js,ts,jsx,tsx}"
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./docs/**/*.md"
   ],
   theme: {
     extend: {},

@@ -3,7 +3,7 @@
         <div class=" flex-shrink-0">
             <PageHeader></PageHeader>
         </div>
-        <div class=" flex-grow container mx-auto py-8">
+        <div class=" flex-grow container mx-auto py-4">
             <article class="prose prose-slate mx-auto">
                 <h1>Page Not Found</h1>
             </article>
