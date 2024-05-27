@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        // 'tech-team-bg': '@/assets/tech-team-bg.png'
+        // 'tech-team-bg': '/assets/tech-team-bg.png'
       }
     },
   },
