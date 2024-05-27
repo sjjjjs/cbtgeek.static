@@ -7,6 +7,9 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  define: {
+    __APP_VERSION__: require('./package.json').verion
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),

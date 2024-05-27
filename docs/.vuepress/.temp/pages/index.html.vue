@@ -1,4 +1,6 @@
 <template><div><h1 id="type-1-cables-for-stations" tabindex="-1"><a class="header-anchor" href="#type-1-cables-for-stations"><span>TYPE 1 CABLES FOR STATIONS</span></a></h1>
+<h2 id="inquery-from" tabindex="-1"><a class="header-anchor" href="#inquery-from"><span>inquery from</span></a></h2>
+<InqueryForm></InqueryForm><h2 id="text" tabindex="-1"><a class="header-anchor" href="#text"><span>text</span></a></h2>
 <p>Your best choice for Amercian standards car charging.</p>
 <blockquote>
 <p>Honors type 1 cables meet Amercian standards, AC slow charging plug and DC fast charging plug, it can suit for most of J1772 standardselectric vehicles.</p>
@@ -7,12 +9,14 @@
     <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="" />
     <figcaption>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</figcaption>
 </figure>
+<h2 id="youtube-video" tabindex="-1"><a class="header-anchor" href="#youtube-video"><span>youtube video</span></a></h2>
+<iframe class="mx-auto" width="560" height="315" src="https://www.youtube.com/embed/TQUn5HLyyE4?si=lAP079qxksX-okvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h2 id="type-1-plug-for-repairing-ine-usa" tabindex="-1"><a class="header-anchor" href="#type-1-plug-for-repairing-ine-usa"><span>Type 1 Plug For Repairing Ine USA</span></a></h2>
 <p>Our type 1 plugs are utilized for the maintenance and refurbishment of ChargePoint stations in Michigan. Coupled with ChargePoint's infrastructure, these American standard plugs ensure high levels of user satisfaction in charging experiences. This partnership guarantees efficient and reliable charging solutions, contributing to enhanced usability and customer satisfaction.</p>
 <h2 id="type-1-stations-installed-in-apartment-in-australia" tabindex="-1"><a class="header-anchor" href="#type-1-stations-installed-in-apartment-in-australia"><span>Type 1 Stations Installed In Apartment In Australia</span></a></h2>
 <p>The installation of Type 1 plugs, paired with local charging stations, within an apartment complex in Melbourne has significantly increased the longevity of usage due to their exceptional quality. This combination has led to a substantial decrease in post-installation service requirements. Consequently, it has boosted the enthusiasm of local drivers, ensuring a seamless and satisfying charging experience for all users.</p>
 <h2 id="type-1-evse-tester" tabindex="-1"><a class="header-anchor" href="#type-1-evse-tester"><span>Type 1 EVSE Tester</span></a></h2>
-<p>Our Type 1 pins have been extensively utilized by customers for testing equipment, undergoing rigorous testing and screening processes. As a result, they have emerged as the most favored testing equipment in Texas. This accomplishment underscores their reliability and effectiveness, establishing them as the preferred choice among users in the state.</p>
+<p>Our Type 1 pins have been extensively utilized by customers for testing equipment, undergoing rigorous <strong>testing</strong> and <em><strong>screening processes</strong></em>. As a result, they have emerged as the most favored testing equipment in Texas. This accomplishment underscores their reliability and effectiveness, <a href="#foo">establishing</a> them as the preferred choice among users in the state.</p>
 <ul>
 <li>What’s Type 1 Standard Ev Charging?</li>
 <li>What’s different between type 1 AC and DC charging?</li>
@@ -64,6 +68,10 @@
     <td>Razor's Edge</td>
     </tr>
 </tbody>
-</table></div></template>
+</table>
+</div></template>
 
 
+<script setup>
+import InqueryForm from '@/components/InqueryForm.vue';
+</script>

@@ -1,7 +1,7 @@
 import PageHeader from '@/components/PageHeader/index.vue';
 
 export default {
-    title: 'Example/PageHeader',
+    title: 'Components/PageHeader',
     component: PageHeader,
     tags: ['autodocs']
 }

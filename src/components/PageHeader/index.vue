@@ -15,17 +15,7 @@
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
         <li><a>Home</a></li>
-        <li>
-          <details>
-            <summary>
-              Product
-            </summary>
-            <ul class="p-2 bg-base-100 rounded-t-none">
-              <li><a>Link 1</a></li>
-              <li><a>Link 2</a></li>
-            </ul>
-          </details>
-        </li>
+        <li><a>Product</a></li>
         <li><a>Knowledge</a></li>
         <li><a>Support</a></li>
         <li><a>About</a></li>

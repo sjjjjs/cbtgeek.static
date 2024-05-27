@@ -1,8 +1,15 @@
 <template>
     <div class="min-h-screen">
         <PageHeader></PageHeader>
-        <div class="container mx-auto">
+        <div class="container mx-auto py-8">
             <article class="prose prose-slate mx-auto">
+                <div class="text-sm breadcrumbs">
+                    <ul>
+                        <li><a>Home</a></li>
+                        <li><a>Documents</a></li>
+                        <li>Add Document</li>
+                    </ul>
+                </div>
                 <Content></Content>
             </article>
         </div>

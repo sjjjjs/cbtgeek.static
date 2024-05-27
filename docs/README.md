@@ -1,5 +1,11 @@
 # TYPE 1 CABLES FOR STATIONS
 
+## inquery from 
+
+<InqueryForm></InqueryForm>
+
+## text
+
 Your best choice for Amercian standards car charging.
 
 > Honors type 1 cables meet Amercian standards, AC slow charging plug and DC fast charging plug, it can suit for most of J1772 standardselectric vehicles.
@@ -8,6 +14,10 @@ Your best choice for Amercian standards car charging.
     <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="" />
     <figcaption>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</figcaption>
 </figure>
+
+## youtube video
+
+<iframe class="mx-auto" width="560" height="315" src="https://www.youtube.com/embed/TQUn5HLyyE4?si=lAP079qxksX-okvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Type 1 Plug For Repairing Ine USA
 
@@ -19,7 +29,7 @@ The installation of Type 1 plugs, paired with local charging stations, within an
 
 ## Type 1 EVSE Tester
 
-Our Type 1 pins have been extensively utilized by customers for testing equipment, undergoing rigorous testing and screening processes. As a result, they have emerged as the most favored testing equipment in Texas. This accomplishment underscores their reliability and effectiveness, establishing them as the preferred choice among users in the state.
+Our Type 1 pins have been extensively utilized by customers for testing equipment, undergoing rigorous **testing** and ***screening processes***. As a result, they have emerged as the most favored testing equipment in Texas. This accomplishment underscores their reliability and effectiveness, [establishing](#foo) them as the preferred choice among users in the state.
 
 
 * What’s Type 1 Standard Ev Charging?
@@ -77,3 +87,8 @@ module.exports = {
     </tr>
 </tbody>
 </table>
+
+
+<script setup>
+import InqueryForm from '@/components/InqueryForm.vue';
+</script>

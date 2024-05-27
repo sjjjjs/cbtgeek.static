@@ -1,7 +1,7 @@
 import RedDiv from '@/components/RedDiv.vue';
 
 export default {
-    title: 'Example/RedDiv',
+    title: 'Components/RedDiv',
     component: RedDiv,
     tags: ['autodocs'],
 }
