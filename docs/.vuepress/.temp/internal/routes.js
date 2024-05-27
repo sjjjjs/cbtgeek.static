@@ -1,7 +1,10 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/sunjunjie/projects/cbtgeek.static/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"TYPE 1 CABLES FOR STATIONS"} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/sunjunjie/projects/cbtgeek.static/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
+  ["/about.html", { loader: () => import(/* webpackChunkName: "about.html" */"/Users/sunjunjie/projects/cbtgeek.static/docs/.vuepress/.temp/pages/about.html.js"), meta: {"title":""} }],
+  ["/blog/", { loader: () => import(/* webpackChunkName: "blog_index.html" */"/Users/sunjunjie/projects/cbtgeek.static/docs/.vuepress/.temp/pages/blog/index.html.js"), meta: {"title":""} }],
+  ["/product/", { loader: () => import(/* webpackChunkName: "product_index.html" */"/Users/sunjunjie/projects/cbtgeek.static/docs/.vuepress/.temp/pages/product/index.html.js"), meta: {"title":""} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/sunjunjie/projects/cbtgeek.static/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 

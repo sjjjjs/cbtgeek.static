@@ -12,9 +12,8 @@ export default defineUserConfig({
     seo: true
   }),
 
-  lang: 'zh-CN',
-  title: '你好， VuePress ！',
-  description: '这是我的第一个 VuePress 站点',
+  title: 'CBT Geek',
+  description: 'Empowering Global Trade with Technology',
 
   alias: {
     '@': path.resolve(__dirname, '../../src'),

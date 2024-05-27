@@ -1,16 +1,12 @@
 <template>
-    <div class="min-h-screen flex flex-col">
-        <div class=" flex-shrink-0">
-            <PageHeader></PageHeader>
-        </div>
-        <div class=" flex-grow container mx-auto py-8">
+    <div class="min-h-screen">
+        <PageHeader></PageHeader>
+        <div class="container mx-auto py-8">
             <article class="prose prose-slate mx-auto">
                 <Content></Content>
             </article>
         </div>
-        <div class=" flex-shrink-0">
-            <PageFooter></PageFooter>
-        </div>
+        <PageFooter></PageFooter>
     </div>
 </template>
 <script setup>
