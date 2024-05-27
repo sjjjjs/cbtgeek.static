@@ -30,4 +30,8 @@
             <a class="link link-hover">Cookie policy</a>
         </nav>
     </footer>
+    <Copyright></Copyright>
 </template>
+<script setup>
+import Copyright from '@/components/PageFooter/Copyright.vue'
+</script>
