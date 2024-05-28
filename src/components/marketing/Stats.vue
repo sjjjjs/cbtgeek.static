@@ -2,7 +2,7 @@
     <div class="stats flex flex-col bg-cover">
         <div class="mt-12 mb-12">
             <div class="container mx-auto">
-                <h2 class=" text-6xl text-center max-w-5xl mx-auto">Trust in CBT Geek</h2>
+                <h2 class=" font-bold text-6xl text-center max-w-5xl mx-auto">Trust in CBT Geek</h2>
                 <p class="mt-4 max-w-5xl mx-auto text-center">Your Expert Partner in Cross-Border Trade Technology</p>
             </div>
         </div>

@@ -1,6 +1,9 @@
-<template><div><Stats></Stats></div></template>
+<template><div><Blog></Blog><Stats></Stats><Cta></Cta><NewLetter></NewLetter></div></template>
 
 
 <script setup>
 import Stats from '@/components/marketing/Stats.vue';
+import NewLetter from '@/components/marketing/NewLetter.vue';
+import Cta from '@/components/marketing/Cta.vue';
+import Blog from '@/components/marketing/Blog/index.vue';
 </script>
