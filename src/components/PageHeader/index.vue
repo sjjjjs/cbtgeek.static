@@ -4,11 +4,11 @@
       <a href="/" class="btn btn-ghost text-xl">
         <img class="w-[20px]" :src="loggIcon" />
         <span>CBT Geek</span>
-        <sup><Version></Version></sup>
+        <sup class="text-slate-500 font-thin"><Version></Version></sup>
       </a>
     </div>
     <div class="flex-none">
-      <ul class="menu menu-horizontal px-1">
+      <ul class="menu menu-horizontal px-1 font-semibold">
         <li><a href="/product">Product</a></li>
         <li><a href="/posts">Posts</a></li>
         <li><a href="/support">Support</a></li>

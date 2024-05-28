@@ -1,11 +1,7 @@
-<Blog></Blog>
-
-
-<Stats></Stats>
-
 <Cta></Cta>
-
+<Stats></Stats>
 <NewLetter></NewLetter>
+<Blog></Blog>
 
 <script setup>
 import Stats from '@/components/marketing/Stats.vue';

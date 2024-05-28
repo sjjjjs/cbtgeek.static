@@ -4,6 +4,7 @@ import Layout from '@/layouts/Layout.vue';
 import NotFound from '@/layouts/NotFound.vue';
 import LayoutArticle from '@/layouts/LayoutArticle.vue';
 import ProductDetail from '@/layouts/ProductDetail.vue';
+import EmptyLayout from '@/layouts/EmptyLayout.vue';
 
 import '@/styles/index.css';
 
@@ -16,5 +17,6 @@ export default defineClientConfig({
         NotFound,
         LayoutArticle,
         ProductDetail,
+        EmptyLayout
     },
 })
