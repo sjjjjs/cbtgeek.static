@@ -1,5 +1,16 @@
 {
   "projects": {
     "default": "cbtgeek-static"
-  }
+  },
+  "targets": {
+    "cbtgeek-static": {
+      "hosting": {
+        "static": [
+          "cbtgeek-static"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

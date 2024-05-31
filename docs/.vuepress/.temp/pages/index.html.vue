@@ -1,4 +1,7 @@
-<template><div><Cta></Cta><Stats></Stats><NewLetter></NewLetter><Blog></Blog></div></template>
+<template><div><Cta></Cta><!-- <Stats></Stats>
+<NewLetter></NewLetter>
+<Blog></Blog> -->
+</div></template>
 
 
 <script setup>
