@@ -1,4 +1,4 @@
-import '../src/styles/index.css'
+import '../src/styles/index.css';
 
 /** @type { import('@storybook/vue3').Preview } */
 const preview = {
