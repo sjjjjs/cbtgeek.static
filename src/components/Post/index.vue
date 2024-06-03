@@ -1,12 +1,12 @@
 <template>
-    <div class="post-head bg-base-300 px-8 py-8 lg:py-16">
+    <div class="post-head bg-base-300 px-8 py-8 lg:py-16 bg-gradient-to-r from-orange-300 to-sky-500">
         <div class="mx-auto max-w-[1280px]">
             <div class="block">
                 <div class="text-sm breadcrumbs">
                     <Breadcrumbs :breadcrumbs="data"></Breadcrumbs>
                 </div>
-                <h1 class="text-3xl leading-snug font-semibold sm:text-4xl lg:my-4">How to Install Avada Via WordPress</h1>
-                <p class="text-sm text-neutral py-4">Last update: February 19, 2024</p>
+                <h1 class="text-3xl leading-snug font-semibold sm:text-4xl lg:my-2">{{ $page.title }}</h1>
+                <p class="text-sm text-neutral py-3">Last update: February 19, 2024</p>
             </div>
         </div>
     </div>
