@@ -11,7 +11,7 @@
             </svg>
         </a>
         <div
-            class="dropdown-content z-[1] p-4 shadow rounded w-[640px] bg-base-100 hover:bg-base-100">
+            class="dropdown-content z-[1] p-4 shadow rounded w-[640px] bg-base-100">
             <slot></slot>
         </div>
     </div>

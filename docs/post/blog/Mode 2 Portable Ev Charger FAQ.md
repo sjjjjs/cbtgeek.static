@@ -1,3 +1,8 @@
+---
+layout: LayoutArticle
+---
+
+
 # Mode 2 Portable Ev Charger FAQ
 
 ## What Is Your Production Time?

@@ -9,11 +9,7 @@
         <img class="h-[40px] mr-12 select-none" src="@/assets/logo.svg"></img>
         <div class="hidden lg:flex flex-none space-x-2">
           <NavLinkItem name="Product">
-            <div class=" space-y-4">
-              <div class="item p-12 text-center bg-primary text-primary-content rounded-md">lala</div>
-              <div class="item p-12 text-center bg-primary text-primary-content rounded-md">lala</div>
-              <div class="item p-12 text-center bg-primary text-primary-content rounded-md">lala</div>
-            </div>
+            <DropdownProduct></DropdownProduct>
           </NavLinkItem>
           <NavLinkItem name="Post" href="/full">
             <div class="space-y-4">
@@ -26,13 +22,13 @@
         </div>
       </div>
       <!-- < lg menu -->
-      <div class="lg:hidden flex-none">
+      <div v-if="false" class="lg:hidden flex-none">
         <button class="btn btn-square btn-ghost">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
             class="inline-block w-5 h-5 stroke-current">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
-          <div v-if="showTopMenu" class="top-menu">
+          <div class="top-menu">
             <ul class="menu menu-lg fixed top-0 left-0 w-screen z-10 bg-slate-300">
               <li><a href="/product">Product</a></li>
               <li><a href="/posts">Posts</a></li>
@@ -84,6 +80,7 @@
 import { ref } from 'vue';
 
 import NavLinkItem from './NavLinkItem.vue';
+import DropdownProduct from './DropdownProduct.vue';
 import LanguageSwitch from './LanguageSwitch.vue';
 import loggIcon from '@/assets/hash-icon.svg';
 import Version from '@/components/Version.vue';
