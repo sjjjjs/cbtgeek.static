@@ -13,7 +13,7 @@ module.exports = {
     },
   },
   daisyui: {
-    themes: ["light", "dark", "cupcake"],
+    themes: ["corporate"],
   },
   plugins: [
     require('@tailwindcss/forms'),
